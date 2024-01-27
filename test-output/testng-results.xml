@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-27T22:12:46 IST" name="Default suite" finished-at="2024-01-27T22:12:56 IST" duration-ms="10005">
+    <groups>
+    </groups>
+    <test started-at="2024-01-27T22:12:46 IST" name="Default test" finished-at="2024-01-27T22:12:56 IST" duration-ms="10005">
+      <class name="test.LoginTest">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.LoginTest@2a3b5b47]" started-at="2024-01-27T22:12:46 IST" name="openBrowser" finished-at="2024-01-27T22:12:56 IST" duration-ms="9685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage()[pri:10, instance:test.LoginTest@2a3b5b47]" started-at="2024-01-27T22:12:56 IST" name="VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage" finished-at="2024-01-27T22:12:56 IST" duration-ms="264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage -->
+      </class> <!-- test.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
