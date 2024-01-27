@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
@@ -21,7 +22,7 @@ import pom.PaymentPage;
 import pom.ProductDisplayPage;
 import utility.Reports;
 @Listeners(test.Listener.class)
-public class LoginTest extends BaseTest {
+public class Swag_LabsTest extends BaseTest {
 	LoginPage loginPage;
 	ProductDisplayPage productDisplayPage;
 	AddToCartPage addToCartPage;
@@ -35,12 +36,10 @@ public class LoginTest extends BaseTest {
 	public void configureReports() {
 		extentReports=Reports.genrateReports();
 	}
-	
-	@BeforeMethod
-	
-    public void openBrowser() {
+	  
+	  @BeforeMethod
+	  public void login() {
 	  driver=LaunchBrowser.chrome();
-			
 	  loginPage=new LoginPage(driver);
 	  loginPage.getUserName("standard_user");
 	  loginPage.getPassword("secret_sauce");
