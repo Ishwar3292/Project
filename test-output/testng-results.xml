@@ -1,21 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-27T22:12:46 IST" name="Default suite" finished-at="2024-01-27T22:12:56 IST" duration-ms="10005">
+  <suite started-at="2024-01-28T13:37:24 IST" name="Default suite" finished-at="2024-01-28T13:39:22 IST" duration-ms="117942">
     <groups>
     </groups>
-    <test started-at="2024-01-27T22:12:46 IST" name="Default test" finished-at="2024-01-27T22:12:56 IST" duration-ms="10005">
-      <class name="test.LoginTest">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:test.LoginTest@2a3b5b47]" started-at="2024-01-27T22:12:46 IST" name="openBrowser" finished-at="2024-01-27T22:12:56 IST" duration-ms="9685" status="PASS">
+    <test started-at="2024-01-28T13:37:24 IST" name="Default test" finished-at="2024-01-28T13:39:22 IST" duration-ms="117942">
+      <class name="test.Swag_LabsTest">
+        <test-method is-config="true" signature="configureReports()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:24 IST" name="configureReports" finished-at="2024-01-28T13:37:25 IST" duration-ms="916" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage()[pri:10, instance:test.LoginTest@2a3b5b47]" started-at="2024-01-27T22:12:56 IST" name="VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage" finished-at="2024-01-27T22:12:56 IST" duration-ms="264" status="PASS">
+        </test-method> <!-- configureReports -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:25 IST" name="OpenBrowser" finished-at="2024-01-28T13:37:37 IST" duration-ms="11486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToAddTheProductIntoCart()[pri:1, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:37 IST" name="VerifyIfUserIsAbleToAddTheProductIntoCart" finished-at="2024-01-28T13:37:37 IST" duration-ms="555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToAddTheProductIntoCart -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:37 IST" name="addTestStatus" finished-at="2024-01-28T13:37:37 IST" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfUserIsAbleToAddTheProductIntoCart status=SUCCESS method=Swag_LabsTest.VerifyIfUserIsAbleToAddTheProductIntoCart()[pri:1, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:37 IST" name="OpenBrowser" finished-at="2024-01-28T13:37:44 IST" duration-ms="7232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToaddTheMultipleProductIntoCart()[pri:2, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:44 IST" name="VerifyIfUserIsAbleToaddTheMultipleProductIntoCart" finished-at="2024-01-28T13:37:45 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToaddTheMultipleProductIntoCart -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:45 IST" name="addTestStatus" finished-at="2024-01-28T13:37:45 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfUserIsAbleToaddTheMultipleProductIntoCart status=SUCCESS method=Swag_LabsTest.VerifyIfUserIsAbleToaddTheMultipleProductIntoCart()[pri:2, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:45 IST" name="OpenBrowser" finished-at="2024-01-28T13:37:51 IST" duration-ms="6624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToRemoveProductFromCart()[pri:3, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:51 IST" name="VerifyIfUserIsAbleToRemoveProductFromCart" finished-at="2024-01-28T13:37:52 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToRemoveProductFromCart -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:52 IST" name="addTestStatus" finished-at="2024-01-28T13:37:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfUserIsAbleToRemoveProductFromCart status=SUCCESS method=Swag_LabsTest.VerifyIfUserIsAbleToRemoveProductFromCart()[pri:3, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:52 IST" name="OpenBrowser" finished-at="2024-01-28T13:37:59 IST" duration-ms="7232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfTheDetailsOnCartPageIsSimilarToPdp()[pri:4, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:59 IST" name="VerifyIfTheDetailsOnCartPageIsSimilarToPdp" finished-at="2024-01-28T13:37:59 IST" duration-ms="460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfTheDetailsOnCartPageIsSimilarToPdp -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:59 IST" name="addTestStatus" finished-at="2024-01-28T13:37:59 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfTheDetailsOnCartPageIsSimilarToPdp status=SUCCESS method=Swag_LabsTest.VerifyIfTheDetailsOnCartPageIsSimilarToPdp()[pri:4, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:37:59 IST" name="OpenBrowser" finished-at="2024-01-28T13:38:12 IST" duration-ms="12613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToEnterThePersonalInformation()[pri:5, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:12 IST" name="VerifyIfUserIsAbleToEnterThePersonalInformation" finished-at="2024-01-28T13:38:12 IST" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToEnterThePersonalInformation -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:12 IST" name="addTestStatus" finished-at="2024-01-28T13:38:12 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfUserIsAbleToEnterThePersonalInformation status=SUCCESS method=Swag_LabsTest.VerifyIfUserIsAbleToEnterThePersonalInformation()[pri:5, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:12 IST" name="OpenBrowser" finished-at="2024-01-28T13:38:19 IST" duration-ms="7099" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToOrderTheProductSucessfully()[pri:6, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:19 IST" name="VerifyIfUserIsAbleToOrderTheProductSucessfully" finished-at="2024-01-28T13:38:20 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToOrderTheProductSucessfully -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:20 IST" name="addTestStatus" finished-at="2024-01-28T13:38:20 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfUserIsAbleToOrderTheProductSucessfully status=SUCCESS method=Swag_LabsTest.VerifyIfUserIsAbleToOrderTheProductSucessfully()[pri:6, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:20 IST" name="OpenBrowser" finished-at="2024-01-28T13:38:30 IST" duration-ms="9677" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToCancelTheOrder()[pri:7, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:30 IST" name="VerifyIfUserIsAbleToCancelTheOrder" finished-at="2024-01-28T13:38:30 IST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToCancelTheOrder -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:30 IST" name="addTestStatus" finished-at="2024-01-28T13:38:30 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfUserIsAbleToCancelTheOrder status=SUCCESS method=Swag_LabsTest.VerifyIfUserIsAbleToCancelTheOrder()[pri:7, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:30 IST" name="OpenBrowser" finished-at="2024-01-28T13:38:45 IST" duration-ms="14696" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToOrderTheMultipleProduct()[pri:8, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:45 IST" name="VerifyIfUserIsAbleToOrderTheMultipleProduct" finished-at="2024-01-28T13:38:46 IST" duration-ms="852" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyIfUserIsAbleToOrderTheMultipleProduct -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:46 IST" name="addTestStatus" finished-at="2024-01-28T13:38:46 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfUserIsAbleToOrderTheMultipleProduct status=SUCCESS method=Swag_LabsTest.VerifyIfUserIsAbleToOrderTheMultipleProduct()[pri:8, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:38:46 IST" name="OpenBrowser" finished-at="2024-01-28T13:39:04 IST" duration-ms="18362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="verifyIfAdditonOfMultipleProductPriceIsEqualToTotalPrice()[pri:9, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:39:04 IST" name="verifyIfAdditonOfMultipleProductPriceIsEqualToTotalPrice" finished-at="2024-01-28T13:39:05 IST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIfAdditonOfMultipleProductPriceIsEqualToTotalPrice -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:39:05 IST" name="addTestStatus" finished-at="2024-01-28T13:39:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyIfAdditonOfMultipleProductPriceIsEqualToTotalPrice status=SUCCESS method=Swag_LabsTest.verifyIfAdditonOfMultipleProductPriceIsEqualToTotalPrice()[pri:9, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:39:05 IST" name="OpenBrowser" finished-at="2024-01-28T13:39:20 IST" duration-ms="15474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage()[pri:10, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:39:20 IST" name="VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage" finished-at="2024-01-28T13:39:20 IST" duration-ms="169" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage -->
-      </class> <!-- test.LoginTest -->
+        <test-method is-config="true" signature="addTestStatus(org.testng.ITestResult)[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:39:20 IST" name="addTestStatus" finished-at="2024-01-28T13:39:20 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage status=SUCCESS method=Swag_LabsTest.VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage()[pri:10, instance:test.Swag_LabsTest@33d512c1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTestStatus -->
+        <test-method is-config="true" signature="publishReports()[pri:0, instance:test.Swag_LabsTest@33d512c1]" started-at="2024-01-28T13:39:20 IST" name="publishReports" finished-at="2024-01-28T13:39:22 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishReports -->
+      </class> <!-- test.Swag_LabsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
