@@ -4,7 +4,6 @@ import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
@@ -38,8 +37,9 @@ public class Swag_LabsTest extends BaseTest {
 	}
 	  
 	  @BeforeMethod
-	  public void login() {
+	  public void OpenBrowser() {
 	  driver=LaunchBrowser.chrome();
+	 
 	  loginPage=new LoginPage(driver);
 	  loginPage.getUserName("standard_user");
 	  loginPage.getPassword("secret_sauce");
@@ -48,7 +48,7 @@ public class Swag_LabsTest extends BaseTest {
 	
 	@Test(priority = 1)
 	public void VerifyIfUserIsAbleToAddTheProductIntoCart() {
-	 
+     test = extentReports.createTest("VerifyIfUserIsAbleToAddTheProductIntoCart");
 	 productDisplayPage=new ProductDisplayPage(driver);
 	 productDisplayPage.clickOnAddToCart(driver,0);
 	 productDisplayPage.clickOnCart();
@@ -56,7 +56,7 @@ public class Swag_LabsTest extends BaseTest {
 	}
 	@Test(priority = 2)
 	public void VerifyIfUserIsAbleToaddTheMultipleProductIntoCart() {
-		
+		 test = extentReports.createTest("VerifyIfUserIsAbleToaddTheMultipleProductIntoCart");
 		 productDisplayPage=new ProductDisplayPage(driver);
 		 productDisplayPage.clickOnAddToCart(driver,0);
 		 productDisplayPage.clickOnAddToCart(driver,1);
@@ -66,7 +66,7 @@ public class Swag_LabsTest extends BaseTest {
 	
 	@Test(priority = 3)
 	public void VerifyIfUserIsAbleToRemoveProductFromCart() throws InterruptedException {
-		
+		 test = extentReports.createTest("VerifyIfUserIsAbleToRemoveProductFromCart");
 		 productDisplayPage=new ProductDisplayPage(driver);
 		 productDisplayPage.clickOnAddToCart(driver,0);
 		 productDisplayPage.clickOnAddToCart(driver,1);
@@ -78,7 +78,7 @@ public class Swag_LabsTest extends BaseTest {
 	}
 	@Test(priority = 4)
 	public void VerifyIfTheDetailsOnCartPageIsSimilarToPdp() {
-		
+		test = extentReports.createTest("VerifyIfTheDetailsOnCartPageIsSimilarToPdp");
 		productDisplayPage=new ProductDisplayPage(driver);
 		 String name1=productDisplayPage.getProductName(0);
 		// System.out.println(name1);
@@ -119,7 +119,7 @@ public class Swag_LabsTest extends BaseTest {
 	
 	@Test(priority = 5)
 	public void VerifyIfUserIsAbleToEnterThePersonalInformation() {
-		
+		test = extentReports.createTest("VerifyIfUserIsAbleToEnterThePersonalInformation");
 		productDisplayPage=new ProductDisplayPage(driver);
 		productDisplayPage.clickOnAddToCart(driver,0);
 		productDisplayPage.clickOnCart();
@@ -134,7 +134,7 @@ public class Swag_LabsTest extends BaseTest {
 	}
     @Test(priority = 6)
     public void VerifyIfUserIsAbleToOrderTheProductSucessfully() {
-    	
+    	test = extentReports.createTest("VerifyIfUserIsAbleToOrderTheProductSucessfully");
     	productDisplayPage=new ProductDisplayPage(driver);
 		productDisplayPage.clickOnAddToCart(driver,0);
 		productDisplayPage.clickOnCart();
@@ -168,7 +168,7 @@ public class Swag_LabsTest extends BaseTest {
     
     @Test(priority = 7)
     public void VerifyIfUserIsAbleToCancelTheOrder() {
-    	
+    	test = extentReports.createTest("VerifyIfUserIsAbleToCancelTheOrder");
     	productDisplayPage =new ProductDisplayPage(driver);
     	productDisplayPage.clickOnAddToCart(driver, 0);
     	productDisplayPage.clickOnCart();
@@ -188,7 +188,7 @@ public class Swag_LabsTest extends BaseTest {
     
     @Test(priority = 8)
     public void VerifyIfUserIsAbleToOrderTheMultipleProduct() {
-    	
+    	test = extentReports.createTest("VerifyIfUserIsAbleToOrderTheMultipleProduct");
     	productDisplayPage=new ProductDisplayPage(driver);
     	productDisplayPage.clickOnAddToCart(driver, 0);
     	productDisplayPage.clickOnCart();
@@ -228,7 +228,7 @@ public class Swag_LabsTest extends BaseTest {
     }
     @Test(priority = 9)
     public void verifyIfAdditonOfMultipleProductPriceIsEqualToTotalPrice() {
-    	
+    	test = extentReports.createTest("verifyIfAdditonOfMultipleProductPriceIsEqualToTotalPrice");
     	productDisplayPage=new ProductDisplayPage(driver);
     	productDisplayPage.clickOnAddToCart(driver, 0);
     	productDisplayPage.clickOnAddToCart(driver, 0);
@@ -258,6 +258,7 @@ public class Swag_LabsTest extends BaseTest {
     }
     @Test(priority = 10)
 	public void VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage() {
+    	test = extentReports.createTest("VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage");
 		productDisplayPage=new ProductDisplayPage(driver);
 		productDisplayPage.clickOnProduct(0);
 		productDisplayPage.clickOnAddToCart(driver,0);

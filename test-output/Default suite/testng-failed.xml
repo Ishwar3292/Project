@@ -5,20 +5,12 @@
     <classes>
       <class name="test.Swag_LabsTest">
         <methods>
-          <include name="configureReports"/>
-          <include name="VerifyIfUserIsAbleToOrderTheProductSucessfully"/>
-          <include name="VerifyIfUserIsAbleToCancelTheOrder"/>
-          <include name="VerifyIfTheDetailsOnCartPageIsSimilarToPdp"/>
+          <include name="OpenBrowser"/>
           <include name="VerifyIfUserIsAbleToAddProductIntoCartFromProductDiscriptionPage"/>
-          <include name="login"/>
+          <include name="configureReports"/>
           <include name="publishReports"/>
-          <include name="VerifyIfUserIsAbleToOrderTheMultipleProduct"/>
-          <include name="VerifyIfUserIsAbleToaddTheMultipleProductIntoCart"/>
           <include name="addTestStatus"/>
           <include name="verifyIfAdditonOfMultipleProductPriceIsEqualToTotalPrice"/>
-          <include name="VerifyIfUserIsAbleToAddTheProductIntoCart"/>
-          <include name="VerifyIfUserIsAbleToRemoveProductFromCart"/>
-          <include name="VerifyIfUserIsAbleToEnterThePersonalInformation"/>
         </methods>
       </class> <!-- test.Swag_LabsTest -->
     </classes>
